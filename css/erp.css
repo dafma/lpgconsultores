@@ -1,0 +1,89 @@
+/* Parte superior de la pagina*/
+
+#contengeneral .contenedor
+{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+
+#contengeneral
+{
+	margin-top:125px;
+}
+
+#contengeneral div
+{
+	margin: 30px 0px 0px;
+	width: 100%;
+}
+
+#contengeneral h1,h2
+{
+	text-align: center;
+	font-size: 32px;
+}
+
+.art1
+{
+	margin:0px;
+	padding:50px;
+}
+.img1
+{
+	width: 250px;
+	/*justify-content:left;*/
+}
+
+.img2
+{
+	width: 650px;
+	height: 590px
+}
+
+.art3
+{
+	margin: 80px 30px 0px;
+	width: 275px;
+	border-bottom: #fff solid blue;
+}
+
+.art3 p
+{
+	margin:5px 5px 5px;
+	font-size: 20px;
+	text-align: justify;
+}
+
+@media (min-width: 768px){
+	.encabezado
+	{
+		width: 98%;
+		height: auto;
+	}
+
+	#contenserv .contenedor
+	{
+		margin: 0px 17% 0px;
+		width: 600px
+	}
+
+	#contenserv .contenedor .serv
+	{
+		width: 250px;
+	}
+}
+
+@media (min-width: 1024px){
+
+	#contenserv .contenedor
+	{
+		margin: 0px 20% 0px;
+		width: 800px;
+	}
+
+	#contenserv .contenedor .serv
+	{
+		width:200px;
+	}
+}

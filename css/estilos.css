@@ -1,0 +1,197 @@
+@import url(menu.css);
+@import url(logo.css);
+
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+header
+{
+	background: white;
+	width: 100%;
+	height: 115px;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 100;
+}
+
+.encabezado
+{
+	width: 100%;
+	margin:auto;
+	border-bottom: 5px solid #9FC8F6;/*linea que "subraya" el encabezado*/
+}
+
+.encabezado img 
+{
+	width: 40%;
+	height: auto;
+}
+
+.encabezado .imglogo
+{
+	margin: 5px 20px 0px;
+	width: 65%;
+	height: 100px;
+}
+
+header .encabezado
+{
+	display:table;
+}
+
+section
+{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+/* Parte inferior de la pagina*/
+/* VERTICALES */
+
+#contenserv
+{
+	background: #3774D7;
+	color: #FFF;
+	text-align: center;
+	padding:20px;
+}
+
+#contenserv h1
+{
+	font-size: 30px;
+}
+
+#contenserv .contenedor
+{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	margin-left: 35%;
+	width: 200px;
+}
+
+#contenserv a
+{
+	color: #FFF;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+}
+
+#contenserv .contenedor a:hover
+{
+	color:#F60;
+	font-weight: bold;
+	/*font-size: 40px;*/
+	background: rgba(255,255,255,0.8);
+	border-radius: 2px;
+}
+
+#contenserv .serv
+{
+	margin:20px;
+}
+
+.serv img
+{
+	background-color: white;
+	border-radius:40%;
+	border: 2px solid #FFF;
+}
+
+.serv p 
+{
+	text-align: justify;
+	font-size: 15px;
+	display:none;
+}
+
+@media (min-width: 768px){
+	.encabezado
+	{
+		width: 98%;
+		height: auto;
+	}
+
+	.encabezado .imglogo
+	{
+		width: 500px;
+		height:100px;
+	}
+
+	#contenserv .contenedor
+	{
+		margin: 0px 17% 0px;
+		width: 600px
+	}
+
+	#contenserv .contenedor .serv
+	{
+		width: 250px;
+	}
+}
+
+@media (min-width: 1024px){
+
+	#contenserv .contenedor
+	{
+		margin: 0px 20% 0px;
+		width: 800px;
+	}
+
+	#contenserv .contenedor .serv
+	{
+		width:200px;
+	}
+}
+
+/*footer*/
+#piepag .contenedor
+{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	padding-bottom: 25px;
+}
+#piepag .copy
+{
+	font-size: 20px;
+	color: #F60;
+	font-weight: bold;
+}
+
+#piepag .aviso
+{
+	text-decoration: none;
+	text-align: left;
+	color: #F60;
+	font-size: 18px;
+}
+
+.sociales
+{
+	width:100%;
+	text-align: center;
+	font-size: 28px;
+	text-decoration: none;
+}
+
+.sociales a 
+{
+	text-decoration: none;
+	color:navy;
+}
+
+
+
+@media (min-width: 1024px){
+	.encabezado
+	{
+		width: 1200px;
+	}
+}

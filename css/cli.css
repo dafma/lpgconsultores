@@ -1,0 +1,140 @@
+/* Parte superior de la pagina*/
+#contengeneral
+{
+	padding:120px;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;	
+}
+
+.izquierdo
+{
+	margin: 10px 5px 0px;
+	width: 50%;
+}
+
+.izquierdo .img1
+{
+	width: 225px;
+}
+
+.derecho
+{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	width: 100%;
+}
+
+.derecho .art2
+{
+	width: 100%;
+	margin: 30px 0px 0px;
+}
+
+.art2 h2
+{
+	text-align: center;
+	font-size: 26px;
+}
+
+.art2 p 
+{
+	text-align: justify;
+	font-size: 17px;
+	font-weight: bold;
+	margin: 0px 20px 0px;
+}
+
+
+.derecho .art3
+{
+	width: 100%;
+	margin: 0px 100px 0px;
+}
+
+.derecho .art3 a
+{
+	text-decoration: none;
+	color: navy;
+}
+
+.derecho .art3 li
+{
+	color:navy;
+}
+
+.derecho .art3 a:hover
+{
+	background: #7EACF6;
+	color:#000;
+	font-weight: bold;
+	margin: 10px;
+}
+
+.derecho .art4
+{
+	width: 100%;
+	margin: 0px 100px 0px;
+}
+
+.derecho .art4 a
+{
+	text-decoration: none;
+	color: navy;
+}
+
+.derecho .art4 li
+{
+	color:navy;
+}
+
+.derecho .art4 a:hover
+{
+	background: #7EACF6;
+	color:#000;
+	font-weight: bold;
+	margin: 10px;
+}
+
+@media(min-width: 768px){
+	#contengeneral
+	{
+		padding:90px;
+		margin:10px 0px 0px;
+		width: 1000px;
+	}
+
+	#contengeneral .izquierdo
+	{
+		margin:0px 0px 0px;
+		width: 200px;
+	}
+
+	#contengeneral .derecho
+	{
+		margin:0px 100px 0px;
+		width: 500px;
+	}
+}
+
+@media(min-width: 1024px){
+	#contengeneral
+	{
+		padding:80px;
+		/*margin:10px 0px 0px;*/
+		width: 100%;
+	}
+
+	#contengeneral .izquierdo
+	{
+		margin:40px 0px 0px;
+		width: 225px;
+	}
+
+	#contengeneral .derecho
+	{
+		margin: 0px 30px 0px;
+		width: 900px;
+	}
+}

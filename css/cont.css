@@ -1,0 +1,191 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+#contencont
+{
+	margin-top: 100px;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+
+.wrap
+{
+	width: 90%;
+	max-width: 500px;
+	padding: 40px;
+	margin: auto;
+	background: #D2DAFB;
+	box-shadow: 0px 0px 3px gray;
+}
+
+#secform
+{
+	width: 98%;
+	padding: 25px;
+	/*border:3px solid navy;*/
+	text-align: center;
+}
+
+#secform h1
+{
+	text-align: center;
+	padding: 10px;
+	color:navy;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.formulario
+{
+	width: 100%;
+	margin: auto;
+}
+
+.input-group
+{
+	position: relative;
+	margin-bottom: 32px;
+}
+
+label
+{
+	color:navy;
+}
+
+.textlabel
+{
+	position:absolute;
+	top: 20px;
+	left:0px;
+	font-size: 16px;
+	line-height: 16px;
+	margin-left: 0px;
+	font-weight: bold;
+}
+
+.textlabel:hover
+{
+	width: 75px;
+	height: 30px;
+	padding: 5px;
+	background: #FFFFFF;
+}
+
+#nomcli
+{
+	width: 80%;
+	outline: none;
+	padding: 15px;
+	margin-left: 70px;
+	background: none;
+	border: none;
+	border-bottom: 2px solid #7A89F8;
+}
+
+#nomcli:focus
+{
+	outline: none;
+	border-bottom: 3px solid #2B41EC;
+}
+
+#apecli
+{
+	width: 80%;
+	outline: none;
+	padding: 15px;
+	margin-left: 70px;
+	background: none;
+	border: none;
+	border-bottom: 2px solid #7A89F8;
+}
+
+#apecli:focus
+{
+	outline: none;
+	border-bottom: 3px solid #2B41EC;
+}
+
+#telcli
+{
+	width: 80%;
+	outline: none;
+	padding: 15px;
+	margin-left: 70px;
+	background: none;
+	border: none;
+	border-bottom: 2px solid #7A89F8;
+}
+
+#telcli:focus
+{
+	outline: none;
+	border-bottom: 3px solid #2B41EC;
+}
+
+#mailcli
+{
+	width: 80%;
+	outline: none;
+	padding: 15px;
+	margin-left: 70px;
+	background: none;
+	border: none;
+	border-bottom: 2px solid #7A89F8;
+}
+
+#mailcli:focus
+{
+	outline: none;
+	border-bottom: 3px solid #2B41EC;
+}
+
+
+#menscli
+{
+	width: 80%;
+	height: 100px;
+	outline: none;
+	padding: 15px;
+	margin-left: 70px;
+	background: none;
+	border: none;
+	border-bottom: 2px solid #7A89F8;
+}
+
+#menscli:focus
+{
+	outline: none;
+	border-bottom: 3px solid #2B41EC;
+}
+
+#btn-submit
+{
+	background: #8E99E4;
+	width: 100%;
+	border-radius: 1px;
+	border: 2px solid #8E99E4;
+	color: #FFF;
+	cursor:pointer;
+	display: inline-block;
+	padding: 15px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#btn-submit:hover
+{
+	background: #FFF;
+	color: navy;
+	font-weight: bold;
+	border: 2px solid navy;
+}
+
+#pagini 
+{
+	text-decoration: none;
+}

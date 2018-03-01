@@ -1,0 +1,70 @@
+/* Parte superior de la pagina*/
+
+#contengeneral .contenedor
+{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+
+#contengeneral
+{
+	margin: 120px 0px 0px;
+}
+
+#contengeneral div
+{
+	margin: 0px;
+	width: 100%;
+}
+
+#contengeneral h1,h2
+{
+	text-align: center;
+	font-size: 32px;
+}
+
+.art1
+{
+	margin:0px;
+	padding: 0px;
+}
+.img1
+{
+	width: 225px;
+	/*justify-content:left;*/
+}
+
+.img2
+{
+	width: 700px;
+	height: 350px
+}
+
+.art3
+{
+	margin: 0px 30px 0px;
+	/*width: 275px;*/
+	width: 85%;
+	border-bottom: #fff solid blue;
+}
+
+.art3 p
+{
+	margin:5px 5px 5px;
+	font-size: 20px;
+	text-align: justify;
+}
+
+@media (min-width: 1024px){
+	.art3
+	{
+		width: 60%;
+	}
+
+	.img2
+	{
+		width: 900px;
+		height:375px;
+	}
+}

@@ -1,0 +1,31 @@
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body
+{
+	background: #DBDEEE;
+}
+
+.unicoconten
+{
+	width: 98%;
+	height:auto;
+}
+
+.superior p
+{
+	margin:20px 0px 10px;
+	text-align:center;
+	font-size:30px;
+}
+
+.inferior
+{
+	margin:20px 0px 10px;
+	text-align:center;
+	font-size:30px;
+}

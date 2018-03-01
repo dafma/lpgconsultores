@@ -1,0 +1,221 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+.superior
+{
+	margin-top: 60px;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+/*Parte Superior Servicios de Nomina*/
+.nomina
+{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+
+.contennom
+{
+	margin:60px 60px 30px;
+	width: 600px;
+}
+
+.contennom h1
+{
+	text-align: center;
+	font-size: 26px;
+	color:navy;
+}
+
+.contennom article p
+{
+	text-align: justify;
+	margin:20px 65px 20px;
+	width: 450px;
+}
+
+/*Caracteristicas generales*/
+#lista
+{
+	margin:0px 90px 0px;
+}
+
+/*Parte Media Servicios de Facturación Electronica*/
+.servelec
+{
+	width: 100%;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	height: auto;
+	background: #C8DDF4;
+	margin: 0px 0px 0px;
+}
+
+.paquetesfac
+{
+	display:flex;
+	flex-wrap:wrap;
+	width: 100%;
+}
+
+.paquetesfac article
+{
+	display:none;
+	margin: 0px 60px 0px;
+}
+
+.paquetesfac h1
+{
+	margin:0px 60px 0px;
+	padding: 20px;
+	font-size: 24px;
+	color:navy;
+}
+
+.subconten
+{
+	width: 100%;
+	height: auto;
+	margin:10px 0px 0px;
+}
+
+.subconten article
+{
+	padding: 10px;
+	color:#000;
+	border:4px solid #FFF;
+	background: #EDECF7;
+}
+
+#sebtm0
+{
+	font-size: 18px;
+	margin: 0px 200px 0px;
+	text-decoration: none;
+	color: #000;
+	background: #B0C4DE;
+	border:3px solid #000;
+	padding: 7px;
+}
+
+#sebtm0:hover
+{
+	font-size: 22px;
+}
+
+#sebto0
+{
+	margin:0px 400px 0px;
+	font-size: 14px;
+	text-decoration: none;
+	background: #99B4B6;
+	border:2px solid #000;
+	padding: 4px;
+}
+
+#sebto0:hover
+{
+	font-size: 17px;
+}
+
+#sebtm1
+{
+	font-size: 18px;
+	margin: 0px 210px 0px;
+	text-decoration: none;
+	color: #000;
+	background: #B0C4DE;
+	border:3px solid #000;
+	padding: 7px;
+}
+
+#sebtm1:hover
+{
+	font-size: 22px;
+}
+
+#sebto1
+{
+	margin:0px 400px 0px;
+	font-size: 14px;
+	text-decoration: none;
+	background: #99B4B6;
+	border:2px solid #000;
+	padding: 4px;
+}
+
+#sebto1:hover
+{
+	font-size: 17px;
+}
+
+#sebtm2
+{
+	font-size: 18px;
+	margin: 0px 220px 0px;
+	text-decoration: none;
+	color: #000;
+	background: #B0C4DE;
+	border:3px solid #000;
+	padding: 7px;
+}
+
+#sebtm2:hover
+{
+	font-size: 22px;
+}
+
+#sebto2
+{
+	margin:0px 400px 0px;
+	font-size: 14px;
+	text-decoration: none;
+	background: #99B4B6;
+	border:2px solid #000;
+	padding: 4px;
+}
+
+#sebto2:hover
+{
+	font-size: 17px;
+}
+
+@media (min-width: 1020px){
+	.superior
+	{
+		width: 100%;
+		display:flex;
+		justify-content:center;
+		flex-wrap:wrap;
+	}
+	.nomina
+	{
+		margin: 30px 120px 10px;
+		width: 400px;
+	}
+
+	.nomina .contennom
+	{
+		margin:60px 50px 10px;
+	}
+
+	.servelec
+	{
+		width: 700px;
+		margin: 0px 0px 0px;
+	}
+	
+	.paquetesfac
+	{
+		margin: 70px 0px 0px;
+		width: 100%;
+	}
+}
